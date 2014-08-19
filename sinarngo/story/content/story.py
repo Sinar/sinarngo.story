@@ -39,4 +39,4 @@ class IStory(form.Schema, IImageScaleTraversable):
     description = schema.Text(title=u'Description',
                               description=u'Brief description '
                               'or summary of story.')
-    
+alsoProvides(IStory, IFormFieldProvider)
