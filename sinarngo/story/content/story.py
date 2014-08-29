@@ -39,4 +39,17 @@ class IStory(form.Schema, IImageScaleTraversable):
     description = schema.Text(title=u'Description',
                               description=u'Brief description '
                               'or summary of story.')
+
+    dexteritytextindexer.searchable('Story details')
+    body = RichText(title=u'Details of Story or Update')
+
+    #Type (News, Update, Story)
+    
+    #Featured
+
+    #Video Caption
+    #Video URL
+    #Video Embed
+    #Relation to Gallery Folder
+
 alsoProvides(IStory, IFormFieldProvider)
