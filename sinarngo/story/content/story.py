@@ -43,7 +43,16 @@ class IStory(form.Schema, IImageScaleTraversable):
     dexteritytextindexer.searchable('Story details')
     body = RichText(title=u'Details of Story or Update')
 
-    #Type (News, Update, Story)
+
+    #Story Types
+    story_type = schema.Choice(
+            title=_(u'Type'),
+            description=_(u'News item, Brief Update or User story'),
+            vocabulary="sinarngo.story.storytype",
+            default='update',
+            required=False
+            )
+
     
     #Featured
 

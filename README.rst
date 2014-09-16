@@ -8,3 +8,14 @@ to help categorise and display content by theme, additional media (video
 and photos), campaigns, geographic location and regions.
 
 Based on design of ACT Alliance Story type.
+
+TODO
+----
+
+- Link to Media Galleries
+
+CREDITS
+-------
+
+Development funded by ILO PROMOTE Project
+http://www.ilo.org/jakarta/whatwedo/projects/WCMS_210965/lang--en/index.htm

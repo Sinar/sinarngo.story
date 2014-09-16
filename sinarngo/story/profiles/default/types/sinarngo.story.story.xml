@@ -41,7 +41,7 @@
   <element value="plone.app.dexterity.behaviors.discussion.IAllowDiscussion"/>
   <element value="sinarngo.campaign.behavior.campaigns.ICampaigns"/>
   <element value="collective.geo.behaviour.interfaces.ICoordinates"/>
-  <element value="wcc.churches.behavior.location.ILocationTags"/>
+  <element value="sinarngo.location.behavior.IRelatedCountries"/>
  </property>
  <property name="schema">sinarngo.story.content.story.IStory</property>
  <property
