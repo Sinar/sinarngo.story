@@ -43,6 +43,15 @@ class IStory(form.Schema, IImageScaleTraversable):
     dexteritytextindexer.searchable('Story details')
     body = RichText(title=u'Details of Story or Update')
 
+    source_url = schema.TextLine(
+            title=_(u'Source URL'),
+            required=False,
+            )
+    source_caption = schema.TextLine(
+            title=_(u'Source Caption'),
+            description=_(u'Author, title or website name'),
+            required=False,
+            )
 
     #Story Types
     story_type = schema.Choice(
@@ -52,7 +61,6 @@ class IStory(form.Schema, IImageScaleTraversable):
             default='update',
             required=False
             )
-
     
     #Featured
 

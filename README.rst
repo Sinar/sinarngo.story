@@ -12,7 +12,7 @@ Based on design of ACT Alliance Story type.
 TODO
 ----
 
-- Link to Media Galleries
+- Link to Media Galleries (or attached to stories?)
 
 CREDITS
 -------
