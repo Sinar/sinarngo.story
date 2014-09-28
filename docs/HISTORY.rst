@@ -10,3 +10,4 @@ Changelog
  - Add sinarngo.locations related country behavior
  - Add initial view template
  - Add source caption and url
+ - Added plone.jsonapi.routes for story
