@@ -11,3 +11,4 @@ Changelog
  - Add initial view template
  - Add source caption and url
  - Added plone.jsonapi.routes for story
+ - Make it folderish, so users can easily add images.
