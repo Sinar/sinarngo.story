@@ -1,0 +1,14 @@
+<registry>
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.story_type">
+    <value key="title">Story Type</value>
+    <value key="description">Story Types</value>
+    <value key="enabled">True</value>
+    <value key="sortable">False</value>
+    <value key="operations">
+        <element>plone.app.querystring.operation.selection.is</element>
+    </value>
+    <value key="vocabulary">sinarngo.story.storytype</value>
+    <value key="group">Metadata</value>
+  </records>
+</registry>
